@@ -18,7 +18,6 @@ void main() {
   print(firstValue - secondValue);
   print(firstValue * secondValue);
   print(firstValue + secondValue * firstValue / secondValue);
-
   // double data type
 
   double firstVal = 350.55;
