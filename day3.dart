@@ -13,6 +13,8 @@ void main() {
   print(firstValue);
 
   int? some = null;
+  int? some2;
 
   print(some);
+  print(some2);
 }
