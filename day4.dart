@@ -3,7 +3,7 @@
 void main() {
   //if statements
 
-  int age = 12;
+  int age = 121;
 
   if (age == 120) {
     print('dead');
@@ -24,5 +24,10 @@ void main() {
 
   // Switch statement
 
-  switch (value) {}
+  switch (value) {
+    case 'Hi!' when age > 100:
+      print('yep');
+    case 'Hii!':
+      print('yep');
+  }
 }
