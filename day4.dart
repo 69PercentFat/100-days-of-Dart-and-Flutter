@@ -12,4 +12,17 @@ void main() {
   } else {
     print('child');
   }
+
+// Ternary
+
+  String value = "Hi!";
+
+  String someValue = value.startsWith('H') ? 'wow' : 'naha';
+  print(someValue);
+  String someValue2 = value.startsWith('i') ? 'wow' : 'naha';
+  print(someValue2);
+
+  // Switch statement
+
+  switch (value) {}
 }
